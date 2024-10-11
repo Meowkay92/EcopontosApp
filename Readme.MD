@@ -40,3 +40,37 @@ Para instalar e executar o projeto localmente, siga os passos abaixo:
 4. Inicie o projeto:
    ```bash
    npx expo start
+
+## 📲 Rodando o Aplicativo no Dispositivo Móvel
+
+Para testar o aplicativo no seu smartphone, você precisa instalar o **Expo Go**. Siga os passos abaixo para Android ou iOS.
+
+### Android
+
+1. Abra a **Google Play Store** no seu dispositivo Android.
+2. No campo de busca, digite **Expo Go**.
+3. Instale o aplicativo **Expo Go** (desenvolvido por *Expo Project*).
+4. Após a instalação, abra o **Expo Go**.
+
+### iOS (iPhone/iPad)
+
+1. Abra a **App Store** no seu dispositivo iOS.
+2. No campo de busca, digite **Expo Go**.
+3. Instale o aplicativo **Expo Go** (desenvolvido por *Expo Project*).
+4. Após a instalação, abra o **Expo Go**.
+
+### Executando o App no Dispositivo
+
+1. No terminal, após rodar `npx expo start`, você verá um QR Code.
+2. Abra o **Expo Go** no seu dispositivo e escaneie o QR Code com a câmera.
+3. O aplicativo será carregado automaticamente no seu dispositivo móvel.
+
+### Links para Download do Expo Go
+
+- [Baixar Expo Go para Android](https://play.google.com/store/apps/details?id=host.exp.exponent)
+- [Baixar Expo Go para iOS](https://apps.apple.com/app/expo-go/id982107779)
+
+## 📝 Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
+
