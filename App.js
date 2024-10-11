@@ -86,7 +86,7 @@ export default function App() {
       <TouchableOpacity
         key={ponto.title}
         style={[styles.card, isSelected && styles.selectedCard]}
-        onPress={() => handleMarkerPress(ponto)}
+        onPress={() => handleMarkerPress(ponto)} // Permite fechar ao clicar no cartão
       >
         <Text style={styles.cardTitle}>{ponto.title}</Text>
         <Text>{ponto.description}</Text>
@@ -144,10 +144,12 @@ const styles = StyleSheet.create({
   },
   map: {
     width: '100%',
-    height: '50%',
+    height: '60%', // Reduzir para 50% vai dar erro 
   },
   info: {
+    flex: 1,
     padding: 10,
+    backgroundColor: '#fff',
   },
   sectionTitle: {
     fontSize: 22,
@@ -167,7 +169,7 @@ const styles = StyleSheet.create({
     elevation: 3,
   },
   selectedCard: {
-    backgroundColor: '#e0f7fa', // Cor diferente para o cartão selecionado
+    backgroundColor: '#e0f7fa',
   },
   markerDetails: {
     position: 'absolute',
